@@ -16,6 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" property="og:title" content="Otto Lutz | Portfolio" />
     <meta property="og:type" content="website" />
+    <link rel="shortcut icon" type="x-icon" href="./Assets/Otto Lutz-logos_whiteicon.png">
 
 
     <meta 
@@ -46,6 +47,10 @@
         text-shadow: 1px 2px 2px rgb(107, 107, 107);
       }
 
+      #contact{
+        text-shadow: 2px 2px 2px rgb(172, 172, 172);
+      }
+
       #About{
         text-shadow: 1px 1px 2px rgb(134, 134, 134);
       }
@@ -73,6 +78,9 @@
               <a href="#About" class="nav-link">About Me</a>
             </li>
             <li class="nav-item px-3">
+              <a href="#Skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item px-3">
               <a href="#Projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item px-3">
@@ -92,12 +100,13 @@
     </div>
     <div class="d-flex justify-content-center">
       <div class="display-6" id="developer">Software Developer.</div>
-        </div>
+    </div>
+    <hr>
    <!--About-->
     <div class="d-flex justify-content-between mt-5">
       <div class="col-7">
         <p class="display-6 text-center" id="About"> About Me</p>
-        <p class="px-3 mx-3" id="paragraph">Hi my name is Otto lutz, thank you for checking out my portfolio! My journey through tech started in my freshman year of high school when I took an intro-to-computer-science class, I loved it; by my senior year, I had taken multiple computer classes and was taking an App Development and AP Java class. After highschool I realized that I didn't want to wait four years to get into the tech industry, so after highschool I joined Eleven Fifty Academy's software development course.</p>
+        <p class="px-3 mx-3" id="paragraph">Hi my name is Otto lutz, thank you for checking out my portfolio! My journey through tech started in my freshman year of high school when I took an intro-to-computer-science class, I quickly got very interested; by my senior year, I had taken multiple computer classes all the way up to App Development and AP Java. After highschool I didn't want to wait four years to get into the tech industry, so after highschool I joined Eleven Fifty Academy's software development course to sharpen my skills. </p>
       </div>
       <div class=" d-block ms-5 my-4">
         <img src="./Assets/OttoLutz_4.jpg" alt="Otto Lutz Picture" class="img-fluid border border-primary border-4 rounded-pill ms-5 shadow-lg" width="50%" height="auto">
@@ -105,7 +114,7 @@
     </div>
     <hr>
     <!--SKILLS-->
-    <h1 class="display-1 text-center my-4" id="Projects">My Skills</h1>
+    <h1 class="display-1 text-center my-4" id="Skills">My Skills</h1>
     <section class="bg-dark bg-gradient text-white  py-3">
 
       <div class="row d-flex justify-content-evenly my-3">
@@ -139,9 +148,7 @@
           </ul>
         </div>
 
-        <a href="./Assets/Otto_Lutz_Resume.docx" class="btn btn-outline-primary text-white d-block" download>
-          Download My Resume
-        </a>
+        <a href="./Assets/Otto_Lutz_Resume.docx" class="btn btn-outline-primary text-white mt-3" download>Download My Resume</a>
 
       </div>
 
@@ -156,61 +163,64 @@
       <div class="container">
         <div class="row">
 
-            <div class="col-md-6 col-lg-4">
-              <div class="card my-3">
-                <div class="card-thumbnail">
-                  <img src="./Assets/HangmanThumbnailResized.png" class="img-fluid" alt="thumbnail">
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title"><a >Hangman Console Application</a></h3>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                  <a href="https://github.com/OttoLutz-00/Hangman" class="btn btn-primary">On GitHub</a>
-                </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card my-3">
+              <div class="card-thumbnail" style="padding: 2px;">
+                <img src="./Assets/ClimbingConnection.png" class="img-fluid" alt="thumbnail">
+                
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a >ClimbingCommunity Azure Website</a></h3>
+                <p class="card-text">This is a functional app for climbers to track and view any routes they've sent at a gym. View a gym and check out all of it's current and past routes, along with any sends other climbers had at that gym.</p>
+                <a href="https://github.com/OttoLutz-00/GoldConsoleApps" class="btn btn-primary">On GitHub</a>
+                <a href="https://climbingcommunitywebmvc.azurewebsites.net/" class="btn btn-outline-success">Deployed Azure website</a>
               </div>
             </div>
-  
-              
-  
-            <div class="col-md-6 col-lg-4">
-              <div class="card my-3">
-                <div class="card-thumbnail">
-                  <img src="./Assets/HangmanThumbnailResized.png" class="img-fluid" alt="thumbnail">
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title"><a >Hangman Console Application</a></h3>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                  <a href="https://github.com/OttoLutz-00/Hangman" class="btn btn-primary">On GitHub</a>
-                </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card my-3">
+              <div class="card-thumbnail" style="padding: 2px;">
+                <img src="./Assets/GrounconnectionThumbnail.png" class="img-fluid" alt="thumbnail">
+                <hr class="my-0">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a >GroundConnection ASP.NET WEB API</a></h3>
+                <p class="card-text">API for making an account, posting jobs, accepting jobs, and uploading proof of completion. This was made with C#, ASP.NET, Entity Framework </p>
+                <a href="#" class="btn btn-primary">On GitHub</a>
               </div>
             </div>
-
-
-            <div class="col-md-6 col-lg-4">
-              <div class="card my-3">
-                <div class="card-thumbnail">
-                  <img src="./Assets/HangmanThumbnailResized.png" class="img-fluid" alt="thumbnail">
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title"><a >Hangman Console Application</a></h3>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                  <a href="#" class="btn btn-primary">On GitHub</a>
-                </div>
+          </div>
+          
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card my-3">
+              <div class="card-thumbnail" style="padding: 2px;">
+                <img src="./Assets/KomodoThumbnail.png" class="img-fluid" alt="thumbnail">
+                
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a >Komodo Console Applications</a></h3>
+                <p class="card-text">A project with a few different console applications for various functions of the Komodo company. These include a badge door access manager, insurance claims handler, and a cafe menu editor.</p>
+                <a href="https://github.com/OttoLutz-00/GoldConsoleApps" class="btn btn-primary">On GitHub</a>
               </div>
             </div>
-
-
-            <div class="col-md-6 col-lg-4">
-              <div class="card my-3">
-                <div class="card-thumbnail">
-                  <img src="./Assets/KomodoThumbnail.png" class="img-fluid" alt="thumbnail">
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title"><a >Komodo Console Applications</a></h3>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
-                  <a href="https://github.com/OttoLutz-00/GoldConsoleApps" class="btn btn-primary">On GitHub</a>
-                </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="card my-3">
+              <div class="card-thumbnail" style="padding: 2px;">
+                <img src="./Assets/newHangmanThumbnailResized.png" class="img-fluid" alt="thumbnail">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title"><a >Hangman Console Application</a></h3>
+                <p class="card-text">Hangman C# console application. Hangman with categories, hints, win statistics, and a simple UI.</p>
+                <a href="https://github.com/OttoLutz-00/Hangman" class="btn btn-primary">On GitHub</a>
               </div>
             </div>
+          </div>
+          
+          
   
               
           </div>
@@ -223,32 +233,30 @@
     <br>
 
     <!-- CONTACT ME -->
-    <h1 class="display-1 text-center mt-4" id="Projects">Contact Me</h1>
+    <h1 class="display-1 text-center mt-1" id="Contact">Contact Me
 
-    <div class="container d-flex justify-content-center mb-5">
-      <form
-      class="m-5"
-        action="https://formspree.io/f/xyylovdp"
-        method="POST"
-      >
-      <label>
-        Your email:
-        <input type="email" name="_replyto" placeholder="Email">
-      </label>
-      <label>
-        Your message:
-        <textarea name="message" placeholder="Message"></textarea>
-      </label>
+      <hr class="mx-auto" width="40%">
+    </h1>
+
+    <div class="container mb-5 d-flex justify-content-center border rounded col-md-5">
+      <form class="m-4" action="https://formspree.io/f/xyylovdp" method="POST">
+        <div class="input-group mb-3">
+      <label>Your email:<input type="email" name="_replyto" placeholder="Email" class="form-control"></label>
+        </div>
+      <label>Your message:<textarea name="message" placeholder="Message" cols="50"  class="form-control"></textarea></label>
+
       <!-- your other form fields go here -->
-      <button type="submit" class="btn btn-outline-success">Send</button>
+      <hr class="mx-auto">
+      <button type="submit" class="btn btn-outline-success d-block mx-auto mt-3">Send</button>
+
       </form>
     </div>
 
     <nav class="navbar sticky-bottom navbar-light bg-dark bg-gradient">
-      <div class="container-fluid d-flex justify-content-evenly">
-        <a class="navbar-brand text-white btn btn-outline-primary" href="#navmenu">Back To Top</a>
+      <div class="container-fluid d-flex justify-content-center">
+        <a class="navbar-brand text-white btn btn-outline-primary col-8" href="#navmenu">Back To Top</a>
         
-        <p class="text-white my-auto">© 2021 Copyright: Otto Lutz</p>
+        <p class="text-white my-auto col-4" style="text-align: right; float: left;">© 2021 Copyright: Otto Lutz</p>
       </div>
     </nav>
 
